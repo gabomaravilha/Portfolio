@@ -9,4 +9,3 @@ describe ('testa os imports', () => {
     expect(1+2).toBe(3);
   })
 })
-
