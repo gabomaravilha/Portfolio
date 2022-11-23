@@ -1,7 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom'
 import NotFound from './Components/NotFound/NotFound';
-import Main from './Pages/Main/Main';
+import Main from './Pages/Main';
 
 
 function MyRoutes() {
