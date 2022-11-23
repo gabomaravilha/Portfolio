@@ -3,7 +3,7 @@ import React from 'react';
 class Header extends React.Component {
   render() {
     return (
-      <div className="Header-container">
+      <header className="Header-container">
         <div className="Header-content">
           <img src='' alt='LOGO'/>
           <nav>
@@ -12,7 +12,7 @@ class Header extends React.Component {
             contact
           </nav>
         </div>
-      </div>
+      </header>
     );
   }
 }

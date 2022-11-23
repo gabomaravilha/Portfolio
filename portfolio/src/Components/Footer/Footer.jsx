@@ -8,9 +8,11 @@ class Footer extends React.Component {
           <div>
             contact information
           </div>
-          <div>
-            latest projects
-          </div>
+          <ul>
+            <li>projeto 1</li>
+            <li>projeto 2</li>
+            <li>projeto 3</li>
+          </ul>
         </div>
         <img src="" alt="" />
       </footer>
