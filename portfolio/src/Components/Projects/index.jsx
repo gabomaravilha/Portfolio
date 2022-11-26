@@ -8,7 +8,7 @@ function Projects () {
       <div>
         <p>PROJETOS</p>
         <div>
-          <Link to={'/projetos/1'}>project 1</Link>
+          <Link to={'/login'}>project 1</Link>
           <Link to={'/projetos/2'}>project 2</Link>
           <Link to={'/projetos/3'}>project 3</Link>
           <Link to={'/projetos/4'}>project 4</Link>

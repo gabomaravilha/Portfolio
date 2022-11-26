@@ -10,7 +10,6 @@ import blackHeartIcon from '../../images/blackHeartIcon.svg';
 import haertIcon from '../../images/whiteHeartIcon.svg';
 import leftIcon from '../../images/left.svg';
 import './index.css';
-import { nomeDoSite } from '../../../Data/SiteName';
 
 const copy = require('clipboard-copy');
 
@@ -93,7 +92,7 @@ export default function Details() {
   };
 
   const copyToClipboard = () => {
-    copy(`${nomeDoSite.nome}/${location}/${id}`);
+    copy(`http://localhost:3000/${location}/${id}`);
     copiedOnScreenTimer();
   };
 
