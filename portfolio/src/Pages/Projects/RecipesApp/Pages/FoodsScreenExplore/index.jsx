@@ -3,7 +3,6 @@ import { useNavigate } from 'react-router-dom';
 import { getSurpriseMe } from '../../services/apiFilter';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-
 import './index.css';
 import ingredientsIcon from '../../images/ingredientes.svg';
 import surpraseIcon from '../../images/surprase.svg';
