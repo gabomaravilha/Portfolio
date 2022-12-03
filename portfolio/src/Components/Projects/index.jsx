@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 function Projects () {
   
     return (
-      <div>
-        <p>PROJETOS</p>
+      <div className='projects-container'>
+        <h1 className='titleproject'>PROJETOS</h1>
         <div>
-          <Link to={'/login'}>project 1</Link>
-          <Link to={'/projetos/2'}>project 2</Link>
-          <Link to={'/projetos/3'}>project 3</Link>
+          <Link to={'/login'}>Recipes App</Link>
+          <Link to={'/trivia/login'}>Trivia</Link>
+          <Link to={'/onlinestore'}>Online Store</Link>
           <Link to={'/projetos/4'}>project 4</Link>
           <Link to={'/projetos/5'}>project 5</Link>
         </div>

@@ -1,3 +1,17 @@
-.footer-container {
-    border: 1px solid black;
+.footer-projects {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container-main {
+  align-items: center;
+  background: #fcfcfc;
+  border-top: 2px solid rgb(228, 223, 223);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
 }

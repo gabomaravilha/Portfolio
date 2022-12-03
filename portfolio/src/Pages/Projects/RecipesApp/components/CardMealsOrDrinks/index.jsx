@@ -31,7 +31,6 @@ function CardMealsOrDrinks() {
   }, [dispatch, mealOrDrink, radioFilter, textFilter, dataIngredient]);
 
   const navigate = useNavigate();
-
   const { pathname } = useLocation();    
 
   const URLName = pathname.split('/')[1];
@@ -51,7 +50,7 @@ function CardMealsOrDrinks() {
       const id = Object.values(data[position][0])[0];
       if (data[position].length === 1) {
         return navigate(`/${URLName}/${id}`);
-      }
+      } 
     }
     if (Array.isArray(data) && data.length === 0) {
       global.alert('Sorry, we haven\'t found any recipes for these filters.');

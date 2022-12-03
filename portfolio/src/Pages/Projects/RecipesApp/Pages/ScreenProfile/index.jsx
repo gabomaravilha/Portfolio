@@ -12,7 +12,7 @@ function ScreenProfile() {
 
   const excludeLocalStorage = () => {
     localStorage.clear();
-    return navigate('/');
+    return navigate('/login');
   };
 
   return (

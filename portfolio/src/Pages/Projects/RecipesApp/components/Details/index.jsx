@@ -15,7 +15,7 @@ const copy = require('clipboard-copy');
 
 const youtubeVidConfig = (url) => {
   const link = url.split('=')[1];
-  return `https://www.youtube.com/embed/${link}`;
+  return `https://www.youtube-nocookie.com/embed/${link}`;
 };
 
 const BUTTON_STATE = {
@@ -58,13 +58,6 @@ export default function Details() {
 
     const ingredientsItem = newIngredients.filter((item) => item !== false);
     return ingredientsItem;
-  };
-
-  const handleComeBack = () => {
-    if (split[1] === 'foods') {
-      return navigate('/foods');
-    }
-    navigate('/drinks');
   };
 
   useEffect(() => {
@@ -121,7 +114,7 @@ export default function Details() {
               className="image-recipes"
               data-testid="recipe-photo"
             />
-            <button type="button" onClick={ () => handleComeBack() }>
+            <button type='button' onClick={() => navigate('/foods')}>
               <img src={ leftIcon } alt="LeftIcon" />
             </button>
           </div>

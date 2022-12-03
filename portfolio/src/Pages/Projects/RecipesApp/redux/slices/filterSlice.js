@@ -18,10 +18,10 @@ const reducers = {
     if (payload === null) {
       return;
     }
-    state.filteredData = payload;
     if (!payload.drinks && !payload.meals) {
       state.filteredData = [];
     }
+    state.filteredData = payload;
   },
   actionTextFilter: (state, { payload }) => {
     state.textFilter = payload;

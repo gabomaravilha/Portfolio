@@ -12,7 +12,6 @@ import CardByCategory from '../CardByCategory';
 import CardByIngredients from '../CardByIngredients';
 import CardByNationalities from '../CardByNationalities';
 import CardMealsOrDrinks from '../CardMealsOrDrinks';
-
 import './index.css';
 
 function ListRecipies() {

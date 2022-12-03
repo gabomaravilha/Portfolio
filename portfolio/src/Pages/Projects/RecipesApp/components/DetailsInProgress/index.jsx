@@ -92,22 +92,12 @@ export default function DetailsInProgress() {
     const objKays = Object.keys(detailsObj);
     const ingredients = objKays.filter((objKey) => objKey.includes('Ingredient'));
     const measures = objKays.filter((objKey) => objKey.includes('Measure'));
-
     const newIngredients = ingredients
       .map((ingredientList, index) => (detailsObj[ingredientList]
         ? `${detailsObj[ingredientList]} - ${detailsObj[measures[index]]}`
         : false));
-
     const ingredientsItem = newIngredients.filter((item) => item !== false);
-
     return ingredientsItem;
-  };
-
-  const handleComeBack = () => {
-    if (split[1] === 'foods') {
-      return navigate('/foods');
-    }
-    return navigate('/drinks');
   };
 
   return (
@@ -125,7 +115,7 @@ export default function DetailsInProgress() {
               className="image-recipes"
               data-testid="recipe-photo"
             />
-            <button type="button" onClick={ () => handleComeBack() }>
+            <button type="button" onClick={ () => navigate(-1) }>
               <img src={ leftIcon } alt="LeftIcon" />
             </button>
           </div>
