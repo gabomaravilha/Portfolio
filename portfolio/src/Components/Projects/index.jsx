@@ -6,7 +6,7 @@ function Projects () {
   
     return (
       <div className='projects-container'>
-        <h1 className='titleproject'>PROJETOS</h1>
+        <h1>PROJETOS</h1>
         <div>
           <Link to={'/login'}>Recipes App</Link>
           <Link to={'/trivia/login'}>Trivia</Link>
