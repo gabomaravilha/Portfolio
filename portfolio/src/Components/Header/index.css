@@ -1,4 +1,26 @@
 .header-nav {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.header-main-container{
+  align-items: center;
+  background: #f8f6f6;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+}
+
+.link-text{
+  border: 2px solid black;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 0 10px;
 }

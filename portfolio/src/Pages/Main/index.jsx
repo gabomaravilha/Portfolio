@@ -7,7 +7,7 @@ import './index.css';
 class Main extends React.Component{
   render() {
     return (
-      <div>
+      <div className='big-container'>
         <Header />
           <main className='main-container'>
             <p className='main-content'>

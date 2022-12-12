@@ -6,8 +6,8 @@ function Projects () {
   
     return (
       <div className='projects-container'>
-        <h1>PROJETOS</h1>
-        <div>
+        <h1 className='projects-title'>PROJETOS</h1>
+        <div className='projects-list'>
           <Link to={'/login'}>Recipes App</Link>
           <Link to={'/trivia/login'}>Trivia</Link>
           <Link to={'/onlinestore'}>Online Store</Link>

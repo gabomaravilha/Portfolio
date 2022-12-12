@@ -1,4 +1,16 @@
-.clicavel{
-  cursor: pointer;
-  }
-  
+.projects-title{
+  text-align: center;
+}
+
+.projects-container{
+  width: min(100% -15px, 840px);
+  margin-inline: auto;
+  height: min(100% -15px, 840px);
+  margin-inline: auto;
+}
+
+.projects-list{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}

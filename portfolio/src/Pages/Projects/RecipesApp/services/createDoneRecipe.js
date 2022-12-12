@@ -1,3 +1,4 @@
+// eslint-disable-next-line import/no-anonymous-default-export
 export default (recipeDetails, detailsType, array) => {
   let day = new Date().getDate().toString();
   day = day.length === 1 ? 0 + day : day;

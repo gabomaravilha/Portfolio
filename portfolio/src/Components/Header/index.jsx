@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 class Header extends React.Component {
   render() {
     return (
-      <header className="header-container">
+      <header className="header-main-container">
           <img className='header-image' src='' alt='LOGO'/>
           <nav className='header-nav'>
-          <Link to={'home'}>home</Link>
-          <Link to={'about'}>about</Link>
-          <Link to={'contact'}>contact</Link>
+            <Link className='link-text' to={'home'}>home</Link>
+            <Link className='link-text' to={'about'}>about</Link>
+            <Link className='link-text' to={'contact'}>contact</Link>
           </nav>
       </header>
     );
