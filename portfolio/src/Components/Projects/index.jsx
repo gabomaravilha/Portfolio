@@ -3,9 +3,8 @@ import './index.css';
 import { Link } from 'react-router-dom';
 
 function Projects () {
-  
     return (
-      <div className='projects-container'>
+      <div className='projects-container big-container'>
         <h1 className='projects-title'>PROJETOS</h1>
         <div className='projects-list'>
           <Link to={'/login'}>Recipes App</Link>

@@ -23,4 +23,12 @@
   justify-content: center;
   text-decoration: none;
   padding: 0 10px;
+  text-transform: uppercase;
+  color: blue;
+  box-shadow: none;
+  transition: box-shadow 0.3s; 
+}
+
+.link-text:hover {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
 }

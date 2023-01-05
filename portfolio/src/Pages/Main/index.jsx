@@ -9,13 +9,13 @@ class Main extends React.Component{
     return (
       <div className='big-container'>
         <Header />
-          <main className='main-container'>
-            <p className='main-content'>
-              Desenvolvedor Web Full Stack 
-            </p>
-            <img src="" alt="foto-perfil" className='main-img' />
-          </main>
-          <Projects />
+        <main className='main-container'>
+          <p className='main-content'>
+            Desenvolvedor Web Full Stack 
+          </p>
+          <img src="" alt="foto-perfil" className='main-img' />
+        </main>
+        <Projects />
         <Footer />
       </div>
     )
