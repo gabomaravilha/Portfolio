@@ -7,7 +7,9 @@ function Projects () {
       <div className='projects-container big-container'>
         <h1 className='projects-title'>PROJETOS</h1>
         <div className='projects-list'>
-          <Link to={'/login'}>Recipes App</Link>
+          <Link to={'/login'}>
+            <img src='../../../recipe' alt="" />
+          </Link>
           <Link to={'/trivia/login'}>Trivia</Link>
           <Link to={'/onlinestore'}>Online Store</Link>
           <Link to={'/projetos/4'}>project 4</Link>

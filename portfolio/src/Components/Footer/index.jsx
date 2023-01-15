@@ -7,7 +7,7 @@ class Footer extends React.Component {
     return (
         <div className='footer-container-main'>
             <div>
-              <Link to={'/contact'}>contact information</Link>
+              <Link className='link-text' to={'/contact'}>contact information</Link>
             </div>
             <div className='footer-projects'>
               <Link to={'/login'}>Recipes App</Link>
