@@ -8,7 +8,7 @@ function Projects () {
         <h1 className='projects-title'>PROJETOS</h1>
         <div className='projects-list'>
           <Link to={'/login'}>
-            <img src='recipesapp.png' alt="" />
+            <img src="https://i.ibb.co/gPhnvvR/recipe.png" alt="aaa" className='project-image'/>
           </Link>
           <Link to={'/trivia/login'}>Trivia</Link>
           <Link to={'/onlinestore'}>Online Store</Link>
