@@ -16,7 +16,7 @@ function Projects () {
             <img src={ triviaImage } alt="Trivia" className='project-image'/>
           </Link>
           <Link to={'/onlinestore'}>
-            <img src={ onlineStore } alt="Online Store" className='project-image' />
+            <img src={ onlineStore } alt="Online Store" className='project-image'/>
           </Link>
         </div>
       </div>
